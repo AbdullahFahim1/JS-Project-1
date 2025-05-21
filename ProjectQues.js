@@ -35,10 +35,10 @@ let ques = [
     {
         num: 4,
         question: "What is best & Power Spell of all time ?",
-        answer: "Telipotation(No Catch Ur Speed)",
+        answer: "Time Manupulator",
         options: [
             "Gravity(Grave Anything)",
-            "Telipotation(No Catch Ur Speed)",
+            "Time Manupulator",
             "Helling(Anything Can Hell)",
             "Summoning(Familiar Beast)"
         ]
