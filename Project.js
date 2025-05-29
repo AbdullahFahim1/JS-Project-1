@@ -154,8 +154,26 @@ quitbtn.onclick = ()=>{
     window.location.reload();
 }
 replaybtn.onclick = ()=>{
-    rule.classList.add("activeRule")
+    
 
+
+    quesCount = 0;
+    counter = 0
+    timeValue = 15;
+    counterLine = 0;
+    widthValue = 0;
+    userScore = 0;
+
+    clearInterval(counter);
+    startTimer(timeValue);
+
+    clearInterval(counterLine);
+    startTimerLine(widthValue);
+
+        
+    rule.classList.add("activeRule")
     result.classList.remove("activeReult");
+    ShowQuestion(quesCount);
+
 
 }
